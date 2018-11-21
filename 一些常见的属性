@@ -1,0 +1,5 @@
+box-shadow：值的表示方法跟text-shadow别无二致。
+text-shadow：一般由三个绝对长度值和一个颜色值来表示，offset-x offset-y blur-radius(optional) color(optional)， 负数表示阴影向左上偏移。
+box-sizing：border-box设置的宽高等于元素的实际宽高（不用担心没考虑边框，变距，填充），content-box设置的宽高都
+添加在内容区上。
+border-radius:如果不带“/”，用法同margin,padding，带“/”前面表示横半轴，后面表示纵半轴。
