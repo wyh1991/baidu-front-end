@@ -1,0 +1,4 @@
+对象实例的__proto__属性指向构造函数的prototype，一般只有构造函数才会具有prototype属性，构造函数的实例能共享prototype对象属性中的属性。
+new：创建一个空对象obj，将this指向obj这个新创建的对象，obj.__proto__指向构造函数的prototype属性对象，逐条执行构造函数内部语句。
+B.prototype.constructor = B？B实例对象constructor属性一般是构造函数，可以通过B.prototype.constructor进行修改。
+bfc:一块与世隔绝的空间，外部布局不会影响到空间内部布局，内部布局也不会影响外部布局；bfc元素不会与兄弟浮动元素重叠，注意水平方向上设置margin会出现意想不到的情况。
