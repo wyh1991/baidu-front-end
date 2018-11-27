@@ -4,3 +4,4 @@ p:nth-child(n)选择第n个子元素且为p的元素
 flex:200px;表示flex-item至少宽度为200px，如果某一行只有单独的一个flex-item，那么它跟父元素的宽度一样，因为flex默认是铺满父元素；
 flex-item之所以与未设置高度的父元素同高：algin-items:stretch使然；
 flex很强大★★★★★（待补充）
+display:flex元素不能设定据对宽度；对子元素设置绝对宽度不生效（flex-grow:0;生效）；可以给该元素添加min/max-width设置缩放的极限。
